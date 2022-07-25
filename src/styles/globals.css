@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.slidecontainer {
+  width: 10%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #303030;
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #5e6673;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: '#5e6673';
+}
+
+.apexcharts-tooltip.apexcharts-theme-light {
+    display: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 350px;
+  padding : 10px 30px;
+}
+
+table tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+
+/* top-right border-radius */
+table tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+
+/* bottom-left border-radius */
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+/* bottom-right border-radius */
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+/* @layer components {
+  .lorem-list-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    border: #707070;
+    background: transparent;
+  } */
+/* 
+  .lorem-list-scrollbar::-webkit-scrollbar-thumb {
+    width: 8px;
+    border: none;
+    background: transparent;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-track {
+      width: 8px;
+      border: none;
+
+      background : transparent;
+      background-image: url("/GvV1R30.png") !important;
+      background-repeat: repeat-y !important;
+      background-size: contain !important;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    border: none;
+    background: transparent;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-track-piece {
+    display:  none;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-corner {
+    display: none;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: #1c1c1c;
+    border : 1px solid #393838
+  } ;
+}
+ */

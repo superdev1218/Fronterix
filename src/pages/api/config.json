@@ -1,0 +1,12 @@
+{
+	"wsProvider" :"ws://127.0.0.1:8546",
+	"znsContractsAddress" : ["0xc2e9678A71e50E5AEd036e00e9c5caeb1aC5987D","0x1A178CFD768F74b3308cbca9998C767F4E5B2CF8","0x35D2F3CDAf5e2DeA9e6Ae3553A4CaACBA860A395"],
+	"znsContractABI" : "znsAbi.json",
+	"dbHost" : "db-postgresql-nyc3-20919-do-user-11783095-0.b.db.ondigitalocean.com",
+	"dbUser" : "wilderworld",
+	"dbPassword" :"AVNS_09-29cP8lRKIsd3LYQt",
+	"dbName" : "doadmin",
+	"ipfsHost" : "127.0.0.1",
+	"ipfsPort" :"5001",
+	"ipfsUrl" : "http://127.0.0.1:5001"
+}

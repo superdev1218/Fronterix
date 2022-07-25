@@ -1,0 +1,2 @@
+test1:
+  component: "./node_modules/@sls-next/serverless-component"
